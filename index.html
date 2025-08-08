@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colorful Platformer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--
+      This page hosts a simple side‑scrolling platformer game.
+
+      The canvas element is where all of the game graphics are rendered via
+      JavaScript. Above it floats a lightweight UI displaying the current
+      score and, when appropriate, a win message.
+
+      To keep the HTML minimal, the actual game logic lives in the
+      main.js file. Feel free to open that file to see how the player,
+      platforms and coins are implemented.
+    -->
+    <div id="gameContainer">
+      <canvas id="gameCanvas" width="800" height="450"></canvas>
+      <div id="ui">
+        <span id="scoreLabel">Score: 0</span>
+        <span id="message"></span>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
